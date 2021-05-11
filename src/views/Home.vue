@@ -1,18 +1,25 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+  <div class="O_home">
+    <router-link class="A_home_link" to="/people" >People</router-link>
+    <router-link class="A_home_link" to="/starships">Starships</router-link>
+    <router-link class="A_home_link" to="/planets">Planets</router-link>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
+<style scoped>
+  .O_home{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-}
-</script>
+  .A_home_link{
+    width: 50vw;
+    display: block;
+    padding: 10px;
+    background-color: #ccc;
+    margin: 10px;
+  }
+</style>
