@@ -3,7 +3,7 @@
     <router-link class="A_home_link" to="/people" >People</router-link>
     <router-link class="A_home_link" to="/starships">Starships</router-link>
     <router-link class="A_home_link" to="/planets">Planets</router-link>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 
