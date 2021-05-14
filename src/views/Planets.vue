@@ -1,21 +1,20 @@
 <template>
-    <div class="O_planets">
-        <PlanetsList />
-        <router-link class="A_link_back" to="/" >Back</router-link>
-    </div>
+  <main class="O_home">
+    <PlanetsList />
+    <router-link class="A_link -back" to="/">Back</router-link>
+  </main>
 </template>
 
 <script>
-import PlanetsList from '@/components/PlanetsList.vue'
+import PlanetsList from "@/components/PlanetsList.vue";
 
 export default {
-  name: 'Planets',
+  name: "Planets",
   components: {
-    PlanetsList
-  }
-}
+    PlanetsList,
+  },
+};
 </script>
 
-<style scoped>
- 
+<style>
 </style>

@@ -1,21 +1,20 @@
 <template>
-  <div class="O_people">
+  <main class="O_home">
     <PeopleList />
-    <router-link class="A_link_back" to="/" >Back</router-link>
-  </div>
+    <router-link class="A_link -back" to="/">Back</router-link>
+  </main>
 </template>
 
 <script>
-import PeopleList from '@/components/PeopleList.vue'
+import PeopleList from "@/components/PeopleList.vue";
 
 export default {
-  name: 'People',
+  name: "People",
   components: {
-    PeopleList
-  }
-}
+    PeopleList,
+  },
+};
 </script>
 
-<style scoped>
- 
+<style>
 </style>

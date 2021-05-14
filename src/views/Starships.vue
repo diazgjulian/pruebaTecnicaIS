@@ -1,21 +1,20 @@
 <template>
-    <div class="O_starships">
-        <StarshipsList />
-        <router-link class="A_link_back" to="/" >Back</router-link>
-    </div>
+  <main class="O_home">
+    <StarshipsList />
+    <router-link class="A_link -back" to="/">Back</router-link>
+  </main>
 </template>
 
 <script>
-import StarshipsList from '@/components/StarshipsList.vue'
+import StarshipsList from "@/components/StarshipsList.vue";
 
 export default {
-  name: 'Starships',
+  name: "Starships",
   components: {
-    StarshipsList
-  }
-}
+    StarshipsList,
+  },
+};
 </script>
 
-<style scoped>
- 
+<style>
 </style>
